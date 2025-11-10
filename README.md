@@ -1,22 +1,22 @@
 # Climate Dynamics
 
-Imagine you work for the Met Office and a client (e.g., from agriculture, utilities companies, finance) has asked you predict the temperature in Oxford, UK on 11th November 2026 and on 11th November 2100. You have access to data from climate model simulations (CMIP) downloaded from [the Climate Data Store (cds)](https://cds.climate.copernicus.eu/datasets/projections-cmip6?tab=download). You are welcome to use data from any other source if you wish. The different timescales require different approaches.
+Imagine you work for the Met Office and a client (e.g., from agriculture, utilities companies, finance) has asked you predict the temperature in Oxford, UK on 11th of December 2025 (a month from now), 11th November 2026 (a year from now) and on 11th November 2100. You have access to data from climate model simulations (CMIP) and reanalysis (ERA5) already downloaded from [the Climate Data Store (cds)](https://cds.climate.copernicus.eu/datasets/projections-cmip6?tab=download). 
 
 Think about: 
 * What data and methods would you use here?
 * How would you approach the different timescales differently?
 * Are there any assumptions you would make?
 * What information would you provide to the client? 
-* What sources of uncertainty do you expect in your prediction?
+* What sources of uncertainty do you expect in your prediction and how could you represent uncertainty?
 
-There are two different notebooks. You can start with whichever exercises you prefer (it's OK if you don't have time for everything). 
+There are two different notebooks. You can start with whichever exercises you prefer. The notebooks have more specific questions and assumed approaches, but you are welcome to answer the questions above in whatever way you see fit, also using data/models from another source if you wish. 
 
 ### Set up
 You can use these notebooks in your local environment (some basic dependencies are required), or use Google Colab, which is the easiest way. Each notebook will have a Colab link associated with it. Colab doesn't host data, so you'll still have to pull the repo within Colab. 
 
 ## Time series approach
 
-To predict the temperature at a specific location on 11th November 2026, we can time series data to inform us about the historical temperatures in this location.
+To predict the temperature at a specific location on 11th November 2026, we can use time series data to inform us about the historical temperatures in this location.
 
 The jupyter notebook [PredictTimeseries.ipynb](PredictTimeseries.ipynb) will help you open the dataset. This data comes from a historical simulation of the Met Office coupled climate model UKESM. 
 
@@ -34,6 +34,8 @@ With a technique called "Pattern Scaling", you can interpolate between these two
 1. Take temperature difference between two scenarios
 2. Normalise pattern by global mean temperature change - this gives the pattern of warming per 1K of warming (so should be centered around 1).
 3. Scale the pattern by the new global mean temperature change
+
+How does the global warming pattern in GCM projections compare with ERA5?
 
 ## Other approaches
 
