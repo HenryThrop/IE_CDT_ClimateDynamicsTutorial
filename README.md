@@ -37,7 +37,7 @@ With a technique called "Pattern Scaling", you can interpolate between these two
 
 ## Other approaches
 
-Think about other approaches you could take to predict the temperature at some time point in the future. How would you blend both temporal and spatial data to improve your predictions? How would you leverage artificial intelligence (AI) techniques?
+Think about other approaches you could take to predict the temperature at some time point in the future. How would you blend both temporal and spatial data to improve your predictions? How would you leverage AI/ML and what do you see as the strengths and potential withfalls with using ML approaches for predictions on weather versus climate timescales? 
 
 
 ## References
