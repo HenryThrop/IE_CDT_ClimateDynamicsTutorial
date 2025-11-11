@@ -1,5 +1,4 @@
-# Climate Dynamics
-
+# Climate Prediction $~~~~~~~~~~~~~~~~~~~~~~~~~~$  tinyurl.com/bdcuw4ju 
 Imagine you work for the Met Office and a client (e.g., from agriculture, utilities companies, finance) has asked you predict the temperature in Oxford, UK on 11th of December 2025 (a month from now), 11th November 2026 (a year from now) and on 11th November 2100. You have access to data from climate model simulations (CMIP) and reanalysis (ERA5) already downloaded from [the Climate Data Store (cds)](https://cds.climate.copernicus.eu/datasets/projections-cmip6?tab=download). 
 
 Think about: 
@@ -9,7 +8,7 @@ Think about:
 * What information would you provide to the client? 
 * What sources of uncertainty do you expect in your prediction and how could you represent uncertainty?
 
-There are two different notebooks. You can start with whichever exercises you prefer. The notebooks have more specific questions and assumed approaches, but you are welcome to answer the questions above in whatever way you see fit, also using data/models from another source if you wish. 
+There are two different notebooks. You can start with whichever exercises you prefer. The notebooks have more specific questions and assumed approaches, but you are welcome to approach the questions above in a more open-ended manner, also using data/models from another source if you wish. 
 
 ### Set up
 You can use these notebooks in your local environment (some basic dependencies are required), or use Google Colab, which is the easiest way. Each notebook will have a Colab link associated with it. Colab doesn't host data, so you'll still have to pull the repo within Colab. 
